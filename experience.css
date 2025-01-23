@@ -1,0 +1,332 @@
+.experience-title {
+  padding-top: 50px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  row-gap: 100px;
+  column-gap: 100px;
+  justify-content: center;
+  padding-top: 90px;
+}
+
+/* project containers/holders*/
+.first-exp {
+  background-color: rgb(217, 217, 217);
+  height: 300px;
+  border-style: solid;
+  border-color: rgb(0, 163, 255);
+  border-width: 2px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -10px 12px 4px rgb(0,0,0);
+  position: relative;
+  
+}
+/* */
+
+.cover-four {
+  height: 300px;
+  width: 400px;
+  background-color: rgb(149, 151, 221);
+  position: absolute;
+  background-repeat: no-repeat;
+  transition: all 0.15s;
+}
+
+.icon-four {
+  width: 70%;
+  margin-left: 50px;
+}
+
+
+/* */
+.exp-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.se-img {
+  width: 180px;
+  height: 170px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+.exp-role-one {
+  font-size: 35px;
+  font-weight: 700;
+  padding: 40px 0 0 20px;
+}
+
+.exp-des-one {
+  font-size: 20px;
+  padding-left: 10px;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+/* */
+.exp-four {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dev-img {
+  width: 180px;
+  height: 170px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+.exp-role-four {
+  font-size: 35px;
+  font-weight: 700;
+  padding: 40px 0 0 20px;
+}
+
+.exp-des-four {
+  font-size: 20px;
+  padding-left: 10px;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+/* */
+
+.cover-one {
+  height: 300px;
+  width: 400px;
+  background-color: rgb(0, 163, 255);
+  position: absolute;
+  background-repeat: no-repeat;
+  transition: all 0.15s;
+}
+
+.icon-one {
+  width: 80%;
+  margin-left: 40px;
+}
+
+/* */
+
+.second-exp {
+  background-color: rgb(217, 217, 217);
+  height: 300px;
+  border-style: solid;
+  border-color: rgb(0, 163, 255);
+  border-width: 2px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -10px 12px 4px rgb(0,0,0);
+  position: relative;
+}
+
+/* */
+
+.cover-two {
+  height: 300px;
+  width: 400px;
+  background-color: rgb(235, 141, 101);
+  position: absolute;
+  background-repeat: no-repeat;
+  transition: all 0.15s;
+}
+
+.icon-two {
+  width: 80%;
+  margin-left: 40px;
+}
+
+/* */
+
+/* */
+
+.cover-five {
+  height: 300px;
+  width: 400px;
+  background-color: rgb(221, 133, 188);
+  position: absolute;
+  background-repeat: no-repeat;
+  transition: all 0.15s;
+}
+
+.icon-five {
+  width: 60%;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+/* */
+.exp-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.wd-img {
+  width: 180px;
+  height: 170px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+.exp-role-two {
+  font-size: 35px;
+  font-weight: 700;
+  padding: 40px 0 0 20px;
+}
+
+.exp-des-two {
+  font-size: 20px;
+  padding-left: 10px;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+/* */
+
+.exp-five {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.qa-img {
+  width: 150px;
+  height: 130px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+.exp-role-five {
+  font-size: 35px;
+  font-weight: 700;
+  padding: 40px 0 0 20px;
+}
+
+.exp-des-five {
+  font-size: 20px;
+  padding-left: 10px;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+
+/* */
+
+.third-exp {
+  background-color: rgb(217, 217, 217);
+  height: 300px;
+  border-style: solid;
+  border-color: rgb(0, 163, 255);
+  border-width: 2px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -10px 12px 4px rgb(0,0,0);
+  position: relative;
+}
+
+/* */
+
+.cover-three {
+  height: 300px;
+  width: 400px;
+  background-color: rgb(69, 165, 182);
+  position: absolute;
+  background-repeat: no-repeat;
+  transition: all 0.15s;
+}
+
+.icon-three {
+  width: 80%;
+  margin-left: 40px;
+}
+
+/* */
+/* */
+
+.cover-six {
+  height: 300px;
+  width: 400px;
+  background-color: rgb(20, 109, 47);
+  position: absolute;
+  background-repeat: no-repeat;
+  transition: all 0.15s;
+}
+
+.icon-six {
+  width: 70%;
+  margin-left: 40px;
+}
+
+/* */
+.exp-three {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.wdm-img {
+  width: 180px;
+  height: 170px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+.exp-role-three {
+  font-size: 35px;
+  font-weight: 700;
+  padding: 40px 0 0 20px;
+}
+
+.exp-des-three {
+  font-size: 20px;
+  padding-left: 10px;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+.exp-six {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sd-img {
+  width: 180px;
+  height: 170px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+.exp-role-six {
+  font-size: 35px;
+  font-weight: 700;
+  padding: 40px 0 0 20px;
+}
+
+.exp-des-six {
+  font-size: 20px;
+  padding-left: 10px;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+
+/* hover effect */
+.cover-one:hover, .cover-two:hover, .cover-three:hover, .cover-four:hover, .cover-five:hover, .cover-six:hover{
+  opacity: 0;
+}

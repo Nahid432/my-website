@@ -1,0 +1,112 @@
+
+
+/* hero image styling*/
+main {
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-color: rgb(34, 34, 34);
+  background-image: url(img/nature.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* hero texts styling*/
+.hero-intro {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  margin-bottom: 30px;
+}
+
+main .hero-intro h1 {
+  font-size: 80px;
+  font-weight: 700;
+  text-shadow: -2px 4px 5px rgba(0,0,0,0.4);
+}
+
+main .hero-intro p {
+  font-size: 25px;
+  font-weight: 500;
+  text-shadow: -2px 4px 5px rgba(0,0,0,0.4);
+}
+
+main .hero-intro a {
+  align-self: center;
+  margin-top: 20px;
+  width: fit-content;
+  padding: 15px 50px;
+  font-size: 20px;
+  font-weight: 700;
+  display: block;
+  background-color: black;
+  color: white;
+  box-shadow: -4px 5px 5px rgba(0,0,0,0.4);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+main .hero-intro button {
+  background-color: white;
+  padding-left: 10px ;
+  padding-right: ;   
+  padding-top: ;
+  padding-bottom: ;
+  align-self: center;
+
+}
+
+main .hero-intro a:hover {
+  background-color: rgb(110, 23, 23);
+}
+
+main .hero-intro a:active {
+  background-color: rgb(29, 5, 5);
+}
+
+
+.lang-title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+
+}
+
+.lang-imgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+
+.html-img {
+  background-image: url(img/html-5.png);
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  margin-right: 100px;
+}
+
+.css-img {
+  background-image: url(img/css-3.png);
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  margin-right: 100px;
+  
+}
+
+.js-img {
+  background-image: url(img/js.png);
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+}

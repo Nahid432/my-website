@@ -1,0 +1,84 @@
+.contact-title {
+  padding-top: 50px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.computer-case {
+  width: 700px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.contact-prompts {
+  margin-right: 400px;
+  margin-top: 100px;
+}
+
+.name-textbox {
+  background-color: white;
+  width: 800px;
+  height: 40px;
+}
+
+.email-textbox {
+  background-color: white;
+  width: 800px;
+  height: 40px;
+  
+}
+
+.subject-textbox {
+  background-color: white;
+  width: 800px;
+  height: 40px;
+  
+}
+
+.detail-textbox {
+  background-color: white;
+  width: 800px;
+  height: 350px;
+  
+}
+
+.Name {
+  font-size: 20px;
+  color: rgb(240, 240, 240);
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.email {
+  font-size: 20px;
+  color: rgb(240, 240, 240);
+  font-weight: 500;
+  margin: 15px 0 5px 0;
+}
+
+.subject {
+  font-size: 20px;
+  color: rgb(240, 240, 240);
+  font-weight: 500;
+  margin: 15px 0 5px 0;
+}
+
+.detail {
+  font-size: 20px;
+  color: rgb(240, 240, 240);
+  font-weight: 500;
+  margin: 15px 0 5px 0;
+}
+
+.detail-textbox::placeholder {
+  font-weight: 500;
+}
